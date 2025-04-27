@@ -11,10 +11,15 @@ config_version=5
 [application]
 
 config/name="DivergenceSlayer"
-run/main_scene="res://Scene/menu_principal.tscn"
+run/main_scene="res://Scene/main_menu.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 boot_splash/bg_color=Color(1, 1, 1, 1)
-config/icon="res://Image/Logo.png"
+boot_splash/image="res://Image/Other/Logo.png"
+config/icon="res://Image/Other/Logo.png"
+
+[autoload]
+
+GlobalScriptText="*res://Script/global_script_text.gd"
 
 [display]
 
